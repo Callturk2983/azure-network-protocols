@@ -49,10 +49,9 @@ Once all the folder permissions are granted, go to Client-1 and attempt to acces
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/6730aec3-98b7-4545-ba1e-315febefce52)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we will create a security group in DC-1 called "Accounting", right click on the domain to create a new OU called "_Groups". And in the _Groups OU make a new group called "Accounting", then set the accounting folder that was previously created with our other folders to have read/write permissions to the Accounting group. And notice just like with the "no-access" folder no one will have access to that folder unless we make them part of the Accounting security group.
 </p>
 <br />
