@@ -1,9 +1,10 @@
-<p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
-</p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+![image](https://github.com/user-attachments/assets/4af18c7d-5a55-496e-b5cb-1d8c120bde1f)
+
+
+
+<h1>Network File Shares and Permissions </h1>
+In this tutorial, we observe sharing resources over the network. Creating File Shares to allow Read, Write, or Deny access to individual users or groups.  <br />
 
 
 <h2>Video Demonstration</h2>
